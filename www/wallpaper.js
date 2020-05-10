@@ -64,8 +64,8 @@ function setBase64(base64, type, callback) {
     }
 }
 
-wallpaper.prototype.setImageBase64 = function(base64, callback) {
-    setBase64(base64, callback);
+wallpaper.prototype.setImageBase64 = function(base64, type, callback) {
+    setBase64(base64, type, callback);
 };
 
 wallpaper.prototype.setImageHttp = function(url, type, callback) {
